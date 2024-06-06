@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 100%;
+    max-width: 500px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contact-item {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.contact-item h2 {
+    margin-top: 0;
+    color: #555;
+}
+
+.contact-item p {
+    margin: 5px 0;
+    color: #777;
+}
+
+.contact-item a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.contact-item a:hover {
+    text-decoration: underline;
+}
+
+.navegacion {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+}
+
+.navegacion a {
+    padding: 15px 0px;
+}
+
+.navegacion {
+    background-color: #f2f2f2; /* Color de fondo de la barra de navegación */
+    overflow: hidden;
+    font-size: 18px;
+    text-align: center;
+}
+
+.navegacion a {
+    display: inline-block;
+    color: black; /* Color del texto en la barra de navegación */
+    text-decoration: none;
+    padding: 50px 50px;
+    width: 100px;
+}
+
+.navegacion a:hover {
+    background-color: #ffffff7e; /* Cambia el color de fondo en el hover */
+}
